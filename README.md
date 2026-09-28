@@ -25,17 +25,17 @@ The solution is organized into several main components:
 ### Pipeline
 
 User Question
-↓
+->
 Text Preprocessing
-↓
+->
 BM25 Retrieval
-↓
+->
 Most Relevant Passage
-↓
+->
 BERT Question Answering Model
-↓
+->
 Extracted Answer
-↓
+->
 Web Application
 
 ## 🔎 Information Retrieval
@@ -128,9 +128,7 @@ Possible improvements identified during the project include:
 
 **Master's Degree — Big Data**
 
-Université des Sciences et de la Technologie Houari Boumediene (USTHB)
-
-2022
+Université des Sciences et de la Technologie Houari Boumediene (USTHB) 2022
 
 Project developed as part of a Master's thesis.
 
