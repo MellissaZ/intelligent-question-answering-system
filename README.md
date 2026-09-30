@@ -73,19 +73,32 @@ The dataset was divided into training, validation and test subsets.
 
 ## 🏗️ Application Architecture
 
-The deployed web application combines several technologies:
+The system architecture combines the web application, information retrieval, 
+Deep Learning and database components.
+
 ![System Architecture](architecture.png)
 
-* **Python** for the NLP and Deep Learning components
-* **BERT** for answer extraction
-* **BM25Okapi** for information retrieval
-* **TensorFlow / Keras**
-* **Transformers**
-* **Flask** for the Python backend
-* **Node.js** for application/server communication
-* **Socket.IO** for real-time communication
-* **React.js** for the user interface
-* **MongoDB** for application data storage
+* **React.js** — User interface and interaction
+* **Node.js / Socket.IO** — Application server and real-time communication
+* **Flask** — Python backend for NLP and Machine Learning processing
+* **BM25Okapi** — Information retrieval and relevant passage selection
+* **BERT** — Question Answering and answer extraction
+* **MongoDB** — Application data storage
+
+### Processing Flow
+
+The question answering process follows this pipeline:
+
+**User Question**
+→ **React.js**
+→ **Node.js / Socket.IO**
+→ **Flask**
+→ **Text Preprocessing**
+→ **BM25 Retrieval**
+→ **Relevant Passage**
+→ **BERT Question Answering**
+→ **Extracted Answer**
+→ **User Interface**
 
 ## 🖥️ Application
 
