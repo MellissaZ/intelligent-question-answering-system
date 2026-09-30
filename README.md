@@ -74,7 +74,7 @@ The dataset was divided into training, validation and test subsets.
 ## 🏗️ Application Architecture
 
 The deployed web application combines several technologies:
-![System Architecture](architecture/architecture.png)
+![System Architecture](architecture.png)
 
 * **Python** for the NLP and Deep Learning components
 * **BERT** for answer extraction
