@@ -78,6 +78,10 @@ Deep Learning and database components.
 
 ![System Architecture](architecture.png)
 
+### Architecture Components
+
+The application is composed of several interconnected components:
+
 * **React.js** — User interface and interaction
 * **Node.js / Socket.IO** — Application server and real-time communication
 * **Flask** — Python backend for NLP and Machine Learning processing
