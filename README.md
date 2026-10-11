@@ -114,6 +114,20 @@ The application provides different functionalities including:
 * Expert intervention
 * Modification/correction of generated answers
 
+## 📸 Application Screenshots
+
+### Home Page
+![Application Home Page](screenshots/home.png)
+
+### Intelligent Question Answering
+![Question Answering](screenshots/question-answering.png)
+
+### Expert Answer Correction
+![Expert Correction](screenshots/expert-correction.png)
+
+### MongoDB Data Model
+![MongoDB Data Model](screenshots/mongodb-model.png)
+
 ## 📊 Results and Limitations
 
 The experiments showed that the system could correctly extract answers in several test cases.
