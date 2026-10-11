@@ -1,7 +1,25 @@
-screenshots/
+intelligent-question-answering-system/
 │
+├── README.md
 ├── architecture.png
-├── login.png
-├── user-interface.png
-├── question-answering.png
-└── expert-interface.png
+│
+├── screenshots/
+│   ├── home.png
+│   ├── question-answering.png
+│   ├── expert-correction.png
+│   └── mongodb-model.png
+│
+├── notebooks/
+│   ├── data_preprocessing.ipynb
+│   └── bm25_retrieval.ipynb
+│
+├── src/
+│   ├── preprocessing/
+│   ├── retrieval/
+│   └── question_answering/
+│
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+└── docs/
+    └── technical-overview.md
